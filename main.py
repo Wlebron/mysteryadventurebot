@@ -140,7 +140,7 @@ class Enemy:
     def display_info(self):
         difficulty = self.get_difficulty_indicator()
         print(f"\n{difficulty} MUSUH: {self.name}")
-        print(f"   HP: {self.hp}/{self.max_hp}")
+        print(f"   HP: {self.hp}/{self.max_hp}")tidak
         print(f"   Power: {self.power}")
         
         # Tampilkan rekomendasi
